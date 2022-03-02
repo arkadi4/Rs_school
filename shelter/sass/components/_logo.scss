@@ -1,0 +1,22 @@
+.logo {
+    width: 187px;
+}
+
+
+.logo-title {
+    font-family: Georgia;
+    @include font ($h1-size, 110%);
+    letter-spacing: 0.06em;
+    // @extend %flexCenter;
+    color: $color-primary;
+    margin-bottom: 10px;
+}
+
+.logo-subtitle {
+    
+    @include font (13px, 15px);
+    letter-spacing: 0.1em;
+    // @extend %flexCenter;
+    margin-left: 4px;
+    color: $color-light;
+}
