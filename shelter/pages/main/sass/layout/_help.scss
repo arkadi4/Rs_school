@@ -1,0 +1,16 @@
+.help-wrapper {
+    padding: 80px 40px 100px;
+}
+.help__title {
+    max-width: 310px;
+    font-family: Georgia;
+    @include font ($h3-size, 130%);
+    letter-spacing: 0.06em;
+    color: $color-dark-1;
+    text-align: center;
+    margin: 0 auto 60px;
+}
+
+.help__first-row {
+    display: grid;
+}

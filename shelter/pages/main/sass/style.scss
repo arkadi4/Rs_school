@@ -3,12 +3,18 @@
 @import 'abstracts/variables';
 
 @import 'base/base';
-@import 'base/reset';
+// @import 'base/reset';
+@import 'base/normalize';
 @import 'base/fonts';
 
 @import 'layout/startScreen';
 @import 'layout/header';
 @import 'layout/startScreenBackground';
+@import 'layout/about';
+@import 'layout/pets';
+@import 'layout/help';
 
 @import 'components/logo';
 @import 'components/nav';
+@import 'components/buttons';
+@import 'components/slider';

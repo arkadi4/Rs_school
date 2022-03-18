@@ -1,0 +1,39 @@
+.about-wrapper {
+    
+    padding: 80px 215px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-img {
+    background: url(../../assets/images/about-pets.jpg);
+    width: 300px;
+    height: 408px;
+}
+
+.about-text {
+    max-width: 430px;
+    padding-top: 14px;
+}
+
+.about-text__title {
+    max-width: 370px;
+    font-family: Georgia;
+    @include font($h3-size, 130%);
+    letter-spacing: 0.06em;
+    margin: 0 0 25px;
+}
+
+.about-text__par1 {
+    max-width: 420px;
+    @include font ($p-size, 160%);
+    color: $color-dark-x1;
+    margin: 0 0 25px;
+}
+
+.about-text__par2 {
+    max-width: 420px;
+    @include font ($p-size, 160%);
+    color: $color-dark-x1;
+    margin: 0 0 0;
+}

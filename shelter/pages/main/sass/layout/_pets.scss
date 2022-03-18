@@ -1,0 +1,21 @@
+.pets {
+    background: #F6F6F6;
+}
+
+.pets-wrapper {
+    padding: 80px 40px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.pets__title {
+    max-width: 400px;
+    font-family: Georgia;
+    @include font ($h3-size, 130%);
+    letter-spacing: 0.06em;
+    color: $color-dark-1;
+    text-align: center;
+    margin: 0;
+}

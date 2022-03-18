@@ -1,0 +1,42 @@
+.button {
+    width: 207px;
+    height: 52px;
+    background-color: $color-primary;
+    border-radius: 100px;
+    font-family: Georgia;
+    @include font (17px, 130%);
+    color: $color-dark-3;
+    border: none;
+    letter-spacing: 0.06em;
+}
+
+.slider__button {
+    width: 52px;
+    height: 52px;
+    border: 2px solid $color-primary;
+    box-sizing: border-box;
+    border-radius: 100px;
+    background-color: white;
+    //transform: rotate(-180deg);
+    //transform: translateX(20px);
+}
+
+.slider__button__left-arrow {
+    transform: rotate(-180deg) 
+               translateY(3px);
+    //transform: translateY(5px);
+}
+
+.slider__button__rigth-arrow {
+    transform: translateY(-3px);
+}
+
+.slider__card__button {
+    max-width: 187px;
+    background-color: transparent;
+    border: 2px solid $color-primary;
+}
+
+.pets__button {
+    width: 261px;
+}

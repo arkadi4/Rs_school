@@ -1,0 +1,39 @@
+.start-screen {
+    padding: 60px 40px 0 40px;
+
+}
+
+.start-screen-wrapper {
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+}
+
+.content {
+    max-width: 460px;
+    padding-top: 163px;
+}
+
+.content__title {
+    max-width: 310px;
+    font-family: Georgia;
+    @include font ($h2-size, 130%);
+    color: $color-light;
+    margin: 0 0 42px 0;
+}
+
+.content__text {
+    max-width: 456px;
+    font-family: $font-text;
+    @include font ($p-size, 160%);
+    color: $color-dark;
+    margin: 0 0 42px 0;
+}
+
+.start-screen__img {
+
+    background-image: url(../../assets/images/start-screen-puppy.jpg);
+    width: 698px;
+    height: 728px;
+    //background-size: contain;
+}
