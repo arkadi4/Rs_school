@@ -23,7 +23,7 @@
 }
 
 .content__text {
-    max-width: 456px;
+    max-width: 456px;    
     font-family: $font-text;
     @include font ($p-size, 160%);
     color: $color-dark;
@@ -31,9 +31,8 @@
 }
 
 .start-screen__img {
-
     background-image: url(../../assets/images/start-screen-puppy.jpg);
     width: 698px;
     height: 728px;
-    //background-size: contain;
+    background-size: contain;
 }

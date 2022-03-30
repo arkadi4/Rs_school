@@ -391,6 +391,7 @@ template {
   background-image: url(../../assets/images/start-screen-puppy.jpg);
   width: 698px;
   height: 728px;
+  background-size: contain;
 }
 
 .header-wrapper {
@@ -452,6 +453,7 @@ template {
 }
 
 .pets {
+  width: 1000px;
   background: #F6F6F6;
 }
 
