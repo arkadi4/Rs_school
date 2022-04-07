@@ -626,6 +626,14 @@ template {
   color: #B2B2B2;
 }
 
+.footer {
+  background: url(../../assets/images/footer-background.jpg);
+}
+
+.footer-wrapper {
+  padding: 40px 40px 0;
+}
+
 .logo {
   width: 187px;
   margin: 0;
