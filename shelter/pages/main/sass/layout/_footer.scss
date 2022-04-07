@@ -4,4 +4,53 @@
 
 .footer-wrapper {
     padding: 40px 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts {
+    max-width: 278px;
+}
+
+.contacts__title {
+    font-family: Georgia;
+    @include font ($h3-size, 130%);
+    letter-spacing: 0.05em;
+    color: $color-light;
+    margin: 0 0 30px;
+}
+
+.contacts__mail {
+    max-width: 251px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.mail-adress, .phone-number {
+    font-family: Georgia;
+    @include font ($h4-size, 115%);
+    letter-spacing: 0.06em;
+    color: $color-primary;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.contacts__phone {
+    max-width: 239px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location {
+    max-width: 302px;
+}
+
+
+.footer-img {
+    background: url(../../assets/images/footer-puppy.jpg);
+    width: 300px;
+    height: 310px;
 }
