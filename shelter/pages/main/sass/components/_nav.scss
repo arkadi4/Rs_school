@@ -16,7 +16,7 @@
 
 .nav-item {
     line-height: 25px;
-    border-bottom: 3px solid transparent;
+    // border-bottom: 3px solid transparent;
 }
 
 .nav-item_selected {
@@ -25,10 +25,10 @@
     // text-decoration-thickness: 3px;
     border-bottom: 3px solid $color-primary;
     // box-sizing: content-box;
-    &:hover {
+    // &:hover {
         
-        border-bottom: 3px solid transparent;
-    }
+    //     border-bottom: 3px solid transparent;
+    // }
 }
 
 .nav-link {
@@ -36,9 +36,9 @@
     color: $color-dark;
     cursor: pointer;
     text-decoration: none;
-    &:hover {
-        color: $color-light-s;
-        border-bottom: 3px solid $color-primary;
-    }
+    // &:hover {
+    //     color: $color-light-s;
+    //     border-bottom: 3px solid $color-primary;
+    // }
     // text-decoration-color: $color-primary;
 }
