@@ -16,7 +16,7 @@
 
 .nav-item {
     line-height: 25px;
-    // border-bottom: 3px solid transparent;
+    border-bottom: 3px solid transparent;
 }
 
 .nav-item_selected {
@@ -41,4 +41,16 @@
     //     border-bottom: 3px solid $color-primary;
     // }
     // text-decoration-color: $color-primary;
+}
+
+.nav-link_selected {
+    color: $color-light-s;
+    // text-decoration: underline;
+    // text-decoration-thickness: 3px;
+    border-bottom: 3px solid $color-primary;
+    // box-sizing: content-box;
+    // &:hover {
+        
+    //     border-bottom: 3px solid transparent;
+    // }
 }

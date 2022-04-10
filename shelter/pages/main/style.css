@@ -742,6 +742,7 @@ template {
 
 .nav-item {
   line-height: 25px;
+  border-bottom: 3px solid transparent;
 }
 
 .nav-item_selected {
@@ -759,6 +760,11 @@ template {
   text-decoration: none;
 }
 
+.nav-link_selected {
+  color: #FAFAFA;
+  border-bottom: 3px solid #F1CDB3;
+}
+
 .button {
   width: 207px;
   height: 52px;
@@ -772,6 +778,10 @@ template {
   color: #292929;
   border: none;
   letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.button:hover {
+  background: #FDDCC4;
 }
 
 .slider__button {
@@ -781,6 +791,9 @@ template {
   box-sizing: border-box;
   border-radius: 100px;
   background-color: white;
+}
+.slider__button:hover {
+  background: #FDDCC4;
 }
 
 .slider__button__left-arrow {
@@ -795,6 +808,10 @@ template {
   max-width: 187px;
   background-color: transparent;
   border: 2px solid #F1CDB3;
+}
+
+.slider__card__button_active {
+  background: #FDDCC4;
 }
 
 .pets__button {
@@ -824,6 +841,11 @@ template {
   padding-bottom: 30px;
   background: #FAFAFA;
   border-radius: 9px;
+}
+
+.slider__card_active {
+  background: #FFFFFF;
+  cursor: pointer;
 }
 
 .slider__card__title {

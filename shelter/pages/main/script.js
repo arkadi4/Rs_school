@@ -1,20 +1,28 @@
-let navLinks = document.querySelectorAll('.nav-item')
+let navLinks = document.querySelectorAll('.nav-link')
+let navItems = document.querySelectorAll('.nav-item')
 let navList = document.querySelector('.nav-list')
+let navLink = document.querySelector('.nav-link')
+let contentButton = document.querySelector('.content__button')
+let slider = document.querySelector('.slider')
+let sliderCards = document.querySelectorAll('.slider__card')
 
 navList.addEventListener('mouseover', (event) => {
-         navLinks.forEach(Element => Element.classList.remove('nav-item_selected'));
-         event.target.classList.add('nav-item_selected');
+         navItems.forEach(element => element.classList.remove('nav-item_selected'));
+         navLinks.forEach(element => element.classList.remove('nav-link_selected'));
+         if (event.target.classList.contains('nav-link')) {
+            event.target.classList.add('nav-link_selected');
+         }       
 })
 
+contentButton.addEventListener('click', () => document.location='#pets')
 
-
-// navLinks.forEach( (Element) => Element.addEventListener('mouseover', (event) => {
-//     navLinks.forEach(Element => Element.classList.remove('nav-item_selected'))
-//     event.target.classList.add('nav-item_selected')
-
-//     console.log('event.target', event.target)
-//     // source = `./assets/audio/${event.target.dataset.link}.mp3`;
-
-//     // divImg.style.backgroundImage = `url(./assets/img/${event.target.dataset.link}.jpg)`;
-//     // console.log('sourceImg', sourceImg)
-// }))
+slider.addEventListener('mouseover', (event) => {
+    sliderCards.forEach(element => element.classList.remove('slider__card_active'));
+    sliderCards.forEach(element => element.classList.remove('slider__card__button_active'));
+    if (event.target.classList.contains('slider__card')) {
+       event.target.classList.add('slider__card_active');
+    }
+    if (event.target.classList.contains('slider__card__button')) {
+        event.target.classList.add('slider__card__button_active');
+    } 
+})

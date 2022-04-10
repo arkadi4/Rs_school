@@ -8,6 +8,10 @@
     color: $color-dark-3;
     border: none;
     letter-spacing: 0.06em;
+    cursor: pointer;
+    &:hover{
+        background: $color-primary-light;
+    }
 }
 
 .slider__button {
@@ -19,6 +23,9 @@
     background-color: white;
     //transform: rotate(-180deg);
     //transform: translateX(20px);
+    &:hover{
+        background: $color-primary-light;
+    }
 }
 
 .slider__button__left-arrow {
@@ -35,6 +42,10 @@
     max-width: 187px;
     background-color: transparent;
     border: 2px solid $color-primary;
+}
+
+.slider__card__button_active {
+    background: $color-primary-light;
 }
 
 .pets__button {

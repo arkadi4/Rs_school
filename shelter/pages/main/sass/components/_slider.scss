@@ -23,6 +23,12 @@
     border-radius: 9px;
 }
 
+.slider__card_active {
+    background: $color-light;
+    cursor: pointer;
+}
+
+
 .slider__card__title {
     font-family: Georgia;
     @include font($h4-size, 23px);
