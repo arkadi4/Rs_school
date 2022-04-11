@@ -25,6 +25,7 @@
     //transform: translateX(20px);
     &:hover{
         background: $color-primary-light;
+        cursor: pointer;
     }
 }
 
@@ -39,13 +40,20 @@
 }
 
 .slider__card__button {
-    max-width: 187px;
-    background-color: transparent;
+    width: 187px;
+    height: 52px;
+    background-color: $color-light;
     border: 2px solid $color-primary;
+    border-radius: 100px;
+    font-family: Georgia;
+    @include font (17px, 130%);
+    color: $color-dark-3;
+    letter-spacing: 0.06em;
 }
 
 .slider__card__button_active {
     background: $color-primary-light;
+    cursor: pointer;
 }
 
 .pets__button {

@@ -1,0 +1,11 @@
+.header {
+    position: sticky;
+    top: 0;
+    background-color: $color-light;
+}
+
+.header-wrapper {
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+}
